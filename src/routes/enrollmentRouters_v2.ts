@@ -13,8 +13,6 @@ import { users, students, courses } from "../db/db.js";
 // import middleware
 import { authenticateToken } from "../middlewares/authenMiddleware.ts";
 import type { CustomRequest } from "../libs/types.ts";
-// import { checkRoleAdmin } from "../middlewares/checkRoleAdminMiddleware.ts";
-// import { checkRoles } from "../middlewares/checkRolesMiddleware.ts";
 
 const router = Router();
 
